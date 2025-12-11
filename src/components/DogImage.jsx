@@ -3,7 +3,7 @@
  */
 export const DogImage = ({ imageUrl, loading, error }) => {
     return (
-        <div className="relative aspect-square bg-gradient-to-br from-amber-100/50 to-rose-100/50">
+        <div className="relative aspect-square bg-linear-to-br from-amber-100/50 to-rose-100/50">
             {loading ? (
                 <div className="absolute inset-0 flex flex-col items-center justify-center gap-4">
                     <div className="relative">
@@ -33,4 +33,3 @@ export const DogImage = ({ imageUrl, loading, error }) => {
         </div>
     );
 };
-

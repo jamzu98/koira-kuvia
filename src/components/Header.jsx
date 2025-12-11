@@ -6,7 +6,7 @@ export const Header = () => {
         <header className="text-center mb-8 animate-[fadeIn_0.6s_ease-out]">
             <div className="inline-flex items-center gap-3 mb-4">
                 <span className="text-5xl">🐕</span>
-                <h1 className="font-display text-5xl md:text-6xl font-bold bg-gradient-to-r from-amber-600 via-orange-500 to-rose-500 bg-clip-text text-transparent">
+                <h1 className="font-display text-5xl md:text-6xl font-bold bg-linear-to-r from-amber-600 via-orange-500 to-rose-500 bg-clip-text text-transparent">
                     Koirakuvia
                 </h1>
             </div>
@@ -16,4 +16,3 @@ export const Header = () => {
         </header>
     );
 };
-
